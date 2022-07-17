@@ -1,0 +1,152 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style and utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container{
+    width: 870px;
+    background: #FFFFFF;
+    height: 679px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+    
+}
+hr{
+    border: 1px solid #D1D1D1;
+    width: 807px;
+}
+
+
+/* top players */
+.top-players{
+    padding: 33px 84px 30px 30px;
+
+}
+.top-players h2{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 0px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    padding-left: 16px;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* top blog styles */
+
+.top-blogs{
+    padding: 33px 44px 30px 30px;
+
+}
+.top-blogs h2{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 0px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 26px;
+
+}
+.blog{
+    display: flex;
+}
+.blog .thumbnile img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+    
+
+}
+.blg-info h3{
+    font-size: 20px;
+
+}
+.blog-info a{
+    text-decoration: none;
+    color: #9F9F9F;
+    font-size: 16px;
+}
+/* course styles */
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-left: 34px;
+    margin-bottom: 0;
+}
+.courses{
+    padding: 33px 44px 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.course{}
+.course-banner{}
+.course-details{}
+.course-title{
+    font-size: 20px;
+}
+.course-author{
+    color: #ED6B4F
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
+.course-info p{
+    color: #A2A2A2;
+}
+
+.fa-star.filed{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-duration{
+    color: #FF4A60;
+    background: #FFE4E8;
+    border-radius: 10px;
+    padding-inline: 4px;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;  
+}
